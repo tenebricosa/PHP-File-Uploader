@@ -9,8 +9,8 @@ use Uploadcare\Configuration;
 use Uploadcare\Api as UploadcareApi;
 
 $configuration = Configuration::create(
-    'c76afb86b9c735c1c2f9',
-    '95e978da240ec4af88a7'
+    'YOUR_PUBLIC_KEY',
+    'YOUR_SECRET_KEY'
 );
 
 $uploader = (new UploadcareApi($configuration))->uploader();
